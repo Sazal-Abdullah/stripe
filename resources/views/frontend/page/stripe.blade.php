@@ -20,7 +20,7 @@
                     <form id="payment-form" action="{{ route('stripe.post') }}" method="post" class="require-validation" data-cc-on-file="false" data-stripe-publishable-key="{{ env('STRIPE_KEY') }}">
                         @csrf
 
-                        <!-- Billing Address Start  -->
+                        <!-- Billing Address Start -->
                 <div class="col-lg-8 p-3">
                     <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Billing Address</span></h5>
                     <div class="bg-wheat p-4 mb-5">
